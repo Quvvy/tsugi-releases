@@ -1,8 +1,6 @@
 # tsugi
 
-A personal anime tracker and launcher
-
-This repository only hosts releases.
+A local anime tracker and launcher
 
 ## Install
 
@@ -22,10 +20,16 @@ tsugi start      # also: stop, restart, status, open
 
 ## Credits
 
-Streaming links come from [Kuroiru](https://kuroiru.co). tsugi isn't affiliated with Kuroiru, and it's built to go easy on the site:
+Credits
 
-- Each show is looked up at most once a day, and the result is saved on your computer. If Kuroiru is down, tsugi keeps using the saved copy.
-- Every request names itself (`tsugi/0.1`), so it's easy to spot.
-- tsugi doesn't host or copy any videos. It only links to the sites that Kuroiru lists.
+Streaming links are sourced from Kuroiru. tsugi is an independent project and is not affiliated with Kuroiru. It's designed to minimize requests to the site:
 
-Thanks to Kuroiru for making this possible. If you run Kuroiru and want changes, or want tsugi to stop using the site, open an issue here and it'll be done.
+Each show is looked up at most once per day, with results cached locally on your computer.
+
+Cached results are reused between lookups, including when Kuroiru is unavailable.
+
+Every request identifies itself with tsugi/0.1 for easy identification.
+
+tsugi does not host, download, or redistribute videos. It only provides links to sources listed by Kuroiru.
+
+Thanks to Kuroiru for making this possible. If you're affiliated with Kuroiru and have concerns, suggestions, or would like tsugi to stop accessing the site, please open an issue on this repository. I'll be happy to address them.
