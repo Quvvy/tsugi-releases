@@ -1,8 +1,8 @@
 # tsugi
 
-A personal anime tracker and launcher (tsugi is Japanese for "next"). Browse and track with your AniList account, get recommendations ranked against your list, and play the next episode on your streaming site, inside tsugi when the site allows it.
+A personal anime tracker and launcher
 
-This repository only hosts releases. **[Download the latest release →](https://github.com/Quvvy/tsugi-releases/releases/latest)**
+This repository only hosts releases.
 
 ## Install
 
