@@ -20,16 +20,14 @@ tsugi start      # also: stop, restart, status, open
 
 ## Credits
 
-Credits
-
 Streaming links are sourced from Kuroiru. tsugi is an independent project and is not affiliated with Kuroiru. It's designed to minimize requests to the site:
 
-Each show is looked up at most once per day, with results cached locally on your computer.
+- Each show is looked up at most once per day, with results cached locally on your computer.
 
-Cached results are reused between lookups, including when Kuroiru is unavailable.
+- Cached results are reused between lookups, including when Kuroiru is unavailable.
 
-Every request identifies itself with tsugi/0.1 for easy identification.
+- Every request identifies itself with tsugi/0.1 for easy identification.
 
-tsugi does not host, download, or redistribute videos. It only provides links to sources listed by Kuroiru.
+- tsugi does not host, download, or redistribute videos. It only provides links to sources listed by Kuroiru.
 
 Thanks to Kuroiru for making this possible. If you're affiliated with Kuroiru and have concerns, suggestions, or would like tsugi to stop accessing the site, please open an issue on this repository. I'll be happy to address them.
