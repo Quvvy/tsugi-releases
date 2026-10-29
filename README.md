@@ -19,3 +19,13 @@ The installer asks for an AniList client ID (create one at <https://anilist.co/s
 tsugi update     # get the latest release
 tsugi start      # also: stop, restart, status, open
 ```
+
+## Credits
+
+Streaming links come from [Kuroiru](https://kuroiru.co). tsugi isn't affiliated with Kuroiru, and it's built to go easy on the site:
+
+- Each show is looked up at most once a day, and the result is saved on your computer. If Kuroiru is down, tsugi keeps using the saved copy.
+- Every request names itself (`tsugi/0.1`), so it's easy to spot.
+- tsugi doesn't host or copy any videos. It only links to the sites that Kuroiru lists.
+
+Thanks to Kuroiru for making this possible. If you run Kuroiru and want changes, or want tsugi to stop using the site, open an issue here and it'll be done.
